@@ -13,4 +13,6 @@ Nhập email và tên khi lần đầu sử dụng
 git config --global user.email
 git config --global user.name
 
-Đẩy code lên server (local repository => remote repository): git push -u origin master
+Đẩy code lên server (local repository => remote repository): git push -u origin master //lần đầu có sử dụng -u
+
+tạo ra 1 branch mới: git branch -b branch-nanme		// copy các file từ branch đang đứng vào 1 branch-name mới
