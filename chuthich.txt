@@ -7,4 +7,10 @@ Kiểm tra trạng thới của src: git status
 
 Save những file đã thay đổi(working copy => staging area): git add file-name hoặc .(tất cả file)
 
-commit những thay đổi(staging area => local repository)
+commit những thay đổi(staging area => local repository): git commit -m "message"
+
+Nhập email và tên khi lần đầu sử dụng
+git config --global user.email
+git config --global user.name
+
+Đẩy code lên server (local repository => remote repository): git push -u origin master
