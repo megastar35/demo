@@ -1,0 +1,10 @@
+Khởi tạo git: git init
+kết nối project với repo: git remote add origin url-repo
+
+Kiểm tra trạng thới của src: git status
++ file màu đỏ: file đã thay đổi những chưa save(working copy)
++ file màu xanh: file đã thay đổi và đã được save(staging area)
+
+Save những file đã thay đổi(working copy => staging area): git add file-name hoặc .(tất cả file)
+
+commit những thay đổi(staging area => local repository)
