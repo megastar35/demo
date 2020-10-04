@@ -20,3 +20,10 @@ git checkout branch-name	//chuyển đến branch-name mong muốn
 tạo ra 1 branch mới: git branch -b branch-nanme		// copy các file từ branch đang đứng vào 1 branch-name mới
 
 cập nhật code từ remote về local: git pull
+
+fix conflict
+B1 checkout master
+B2 pull
+B3 checkout feature2
+B4 git merge master	//merge branch checkout hiện tại với branch master
+B5 fix conflict
